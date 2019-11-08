@@ -16,7 +16,13 @@ module.exports = {
         "jsx-a11y/click-events-have-key-events": 0,
         "react/jsx-props-no-spreading": 0,
         "jsx-a11y/no-noninteractive-element-interactions": 0,
-        "jsx-a11y/control-has-associated-label": 0
+        "jsx-a11y/control-has-associated-label": 0,
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+              "devDependencies": true
+            }
+          ]
     },
     "globals": {
         "window": true,
